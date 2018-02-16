@@ -33,6 +33,24 @@ h6 {
 	font-size: 1.25em;
 }
 
+#index-body-header {
+	font-size: 5em;
+	font-weight: bold;
+	line-height: 0.9;
+	margin: 0;
+}
+
+#index-body-desc {
+	font-family: "Lobster", cursive;
+	font-size: 3em;
+	font-weight: 500;
+	margin: 0;
+}
+
+.index-body {
+	height: 75vh;
+}
+
 @media only screen and (min-width: 600px) {
 	.body-text {
 		max-width: 75vw;

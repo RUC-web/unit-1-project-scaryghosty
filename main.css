@@ -38,7 +38,6 @@ h6 {
 	font-weight: 800;
 	line-height: 0.9;
 	margin: 0;
-	text-align: right;
 	text-decoration: underline;
 }
 
@@ -57,10 +56,11 @@ body {
 
 .index-body {
 	height: 75vh;
+	margin: auto;	/* Googled this */
 	background-image: url("images/Sperm_Whale.jpg");
     background-repeat: no-repeat;
-    background-position: right 90%;
-    background-size: 105%;
+    background-position: center 70%;
+    background-size: contain;
 }
 
 @media only screen and (min-width: 600px) {

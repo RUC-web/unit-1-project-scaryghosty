@@ -16,10 +16,16 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 3.4em;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 800;
 }
 
 h2 {
 	font-size: 2.6em;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 400;
 }
 
 h3 {
@@ -40,15 +46,16 @@ h6 {
 
 #index-body-header {
 	font-size: 4em;
-	font-weight: 800;
+	/* font-weight: 800; 		h1 already has this */
 	line-height: 0.9;
 	margin: 0;
-	text-decoration: underline;
+	/* text-decoration: underline; 		h1 already has this */
+	text-align: left;
 }
 
 #index-body-desc {
 	font-family: "Lobster", cursive;
-	font-size: 2em;
+	font-size: 2.6em;
 	font-weight: 400;
 	margin: 0;
 	text-align: right;
@@ -60,18 +67,28 @@ body {
 	margin: 0;
 }
 
+.body-text {
+	background-color: #fff;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #225568;
+	padding: 1em;
+}
+
 .index-body {
 	height: 75vh;
 	margin: auto;	/* Googled this */
 	background-image: url("images/Sperm_Whale.jpg");
     background-repeat: no-repeat;
-    background-position: center 70%;
+    background-position: center bottom;
     background-size: contain;
+    border-color: #000;
 }
 
 @media only screen and (min-width: 600px) {
 	.body-text {
 		max-width: 75vw;
+		margin: auto;
 	}
 }
 

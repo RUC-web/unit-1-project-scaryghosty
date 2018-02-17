@@ -4,6 +4,11 @@
 	line-height: 1.4;
 }
 
+html * {
+
+    box-sizing: border-box;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Lobster", cursive;
 	line-height: 0.75;
@@ -52,6 +57,7 @@ h6 {
 
 body {
 	background-color: #5393B6;
+	margin: 0;
 }
 
 .index-body {
@@ -73,4 +79,18 @@ body {
 	.body-text {
 		max-width: 50vw;
 	}
+}
+
+.navigation-menu {
+	padding: 1em;
+	width: 100%;
+}
+
+.navigation-menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    list-style-type: none;
 }
